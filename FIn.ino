@@ -43,7 +43,7 @@ void setup() {
   // LCD NOKIA
   myGLCD.InitLCD();
   myGLCD.setFont(SmallFont);
-  myGLCD.print("ARDUINO", CENTER, 0);
+  myGLCD.print("CHIPLET", CENTER, 0);
   myGLCD.print("WATCH", CENTER, 10);
   myGLCD.print("SPORT", CENTER, 20);
   myGLCD.drawRect(26, 8, 58,18);
@@ -54,8 +54,8 @@ void setup() {
   }
   
   myGLCD.setFont(TinyFont);
-  myGLCD.print("(C)2015 by", CENTER, 36);
-  myGLCD.print("Alexis Lozada", CENTER, 42);
+  myGLCD.print("(C)2021 by", CENTER, 36);
+  myGLCD.print("Squirrel Computers", CENTER, 42);
   myGLCD.update();
   //delay(2000);
   
